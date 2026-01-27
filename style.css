@@ -1,9 +1,61 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
-    color: #2c3e50;
+    color: #38bdf8;
+}
+
+h2 {
+    color: #fbbf24;
+    margin-bottom: 5px;
+}
+
+.group {
+    font-style: italic;
+    color: #94a3b8;
+}
+
+.profile-img {
+    width: 180px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 4px solid #38bdf8;
+}
+
+h3 {
+    color: #a5b4fc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #334155;
+    margin: 8px auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #94a3b8;
 }
